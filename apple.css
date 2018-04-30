@@ -1,0 +1,164 @@
+body {
+	background-color: #f3f3f4;
+}
+
+header {
+	padding: 1%;
+}
+
+nav {
+	font-family: 'Roboto', sans-serif;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	line-height: 1em;
+	margin-top: -6%;
+}
+
+@media(max-width: 640px) {
+	ul {
+		margin-top: -11%;
+	}
+}
+
+li {
+	background-color: #c7c7c7;
+	border: 1px solid;
+	border-color: #c7c7c7;
+	cursor: pointer;
+	margin: 2%;
+	padding: 5px;
+}
+
+@media(max-width: 640px) {
+	li {
+		font-size: .7em;
+		padding: 2px;
+		margin-right: 35px;
+		margin-left: -19px;
+	}
+}
+
+section {
+	padding: 1em;
+	text-align: justify 
+}
+
+@media(max-width: 640px) {
+	section {
+		margin: 5%;
+		width: 100%;
+	}
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width: 640px) {
+	p {
+		font-size: 1em;
+	}
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+
+}
+
+@media(max-width: 640px) {
+	h1 {
+		font-size: 2em;
+	}
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+}
+
+@media(max-width: 640px) {
+	h2 {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.logo-header {
+	width: 3%;
+	height: 3%;
+	margin: 1%;
+}
+
+@media(max-width: 640px) {
+	.logo-header {
+		width: 7%;
+		margin-left: 4%;
+	}
+}
+ 
+.nav-item {
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container-apple {
+	padding: 3%;
+	background-color: #969696;
+}
+
+@media (max-width: 640px) {
+	.container-apple {
+		width: 70%;
+	}
+}
+
+@media (max-width: 640px) {
+	.iphones-geraçoes {
+		width: 80%;
+	}
+}
+
+.input-firstname {
+	padding: .5%;
+}
+
+.input-email {
+	padding: .5%;
+}
+
+.input-message {
+	padding: .5%;
+}
+
+.button {
+	background-color: #000;
+	border-color: #000;
+	cursor: pointer;
+	padding: 1% 1%; 
+	margin-left: 0.5%;
+}
+
+.strong-submit {
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+footer {
+	padding: 1%;
+}
+
+.logo-footer {
+	float: right;
+	width: 3%;
+	height: 3%;
+	margin: 1%; 
+}
+
